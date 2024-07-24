@@ -1,0 +1,55 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#ffeeee,#ffc0bb);
+    min-height: 100vh;
+}           
+
+
+.sub-container{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.emojiContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.emojiContainer2{
+    list-style: none;
+    cursor:pointer;
+}
+
+.sucessContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 20%;
+}
+
+.img2{
+    width: 20%;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f172a;
+}
